@@ -20,6 +20,7 @@ const student={
 // {"id":1,"name":"Kabir","age":25,"dept":"cse","regNo":2019331543} =>after using stringfiy
 
 const studentJSON= JSON.stringify(student);
+console.log(studentJSON.name);
 // console.log(studentJSON);
 const studentObj= JSON.parse(studentJSON);
-console.log(studentObj);
+// console.log(studentObj);
